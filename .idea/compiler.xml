@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Alertas (1)" />
+        <module name="Alertas (2)" />
+        <module name="Residuos (1)" />
+        <module name="Residuos" />
+        <module name="Alertas" />
+        <module name="ServerResiduos" />
+        <module name="gateway" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Alertas" options="-parameters" />
+      <module name="Alertas (1)" options="-parameters" />
+      <module name="Alertas (2)" options="-parameters" />
+      <module name="Residuos" options="-parameters" />
+      <module name="Residuos (1)" options="-parameters" />
+      <module name="ServerResiduos" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+    </option>
+  </component>
+</project>
